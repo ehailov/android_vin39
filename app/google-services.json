@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "300281587418",
+    "firebase_url": "https://benoit-52c3f.firebaseio.com",
+    "project_id": "benoit-52c3f",
+    "storage_bucket": "benoit-52c3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300281587418:android:c7c45a7c345b409ddd67e3",
+        "android_client_info": {
+          "package_name": "ru.businesscloud.vin39"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300281587418-cklt89eb2sc4fas2ula5smtndr585atc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNb1p9Ml5iJCOBf_yxonLAl2qhnPrfat8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300281587418-cklt89eb2sc4fas2ula5smtndr585atc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="101dp"
+    android:layout_marginTop="25dp"
+    android:layout_marginLeft="25dp"
+    android:layout_marginRight="25dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:elevation="6dp"
+    android:clickable="true"
+    android:id="@+id/button_item">
+
+    <android.widget.Button
+        android:id="@+id/logout_button"
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:textColor="@color/white"
+        android:text="@string/logout"
+        android:textAllCaps="false"
+        android:background="@drawable/logout_button_background"/>
+
+    <TextView
+        android:id="@+id/profile_ver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/logout_button"
+        android:text="-"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
+

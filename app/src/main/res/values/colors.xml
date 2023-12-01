@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#BFFF00</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#ADFF2F</color>
+    <color name="white">#FFF</color>
+
+    <color name="base_background_color">#33969695</color>
+    <color name="base_background">#004c98</color>
+    <color name="base_text">#3b4664</color>
+    <color name="base_alarm">#F82D33</color>
+    <color name="base_warning">#F2C531</color>
+    <color name="no_alive">#aeb3c0</color>
+    <color name="gray">#aeb3c0</color>
+    <color name="main_black">#000000</color>
+    <color name="base_back_button">#120E1F</color>
+    <color name="for_color_kenwood">#201600</color>
+    <color name="for_color_shivahi">#F82D33</color>
+    <color name="red">#F82D33</color>
+    <color name="background_color">#000000</color>
+    <color name="background_alive_color">#a9acaf</color>
+    <color name="green">#33FF66</color>
+
+    <color name="base_black">#1C1C1C</color>
+    <color name="primary_black">#2F353B</color>
+    <color name="black1">#4d4d4d</color>
+</resources>

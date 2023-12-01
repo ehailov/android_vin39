@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:background="@color/primary_black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pin"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/pin_field"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:textAlignment="center"
+            android:inputType="textEmailAddress"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:textColorHighlight="@color/colorPrimary"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <android.widget.Button
+            android:id="@+id/activate_button"
+            android:layout_marginBottom="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/button_activate"
+            android:textAllCaps="false"
+            android:background="@drawable/button_background"/>
+
+        <android.widget.Button
+            android:id="@+id/pin_button"
+            android:layout_marginBottom="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:textColor="@color/white"
+            android:text="@string/pin_cod_button"
+            android:textAllCaps="false"
+            android:background="@drawable/button_background"/>
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="30dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
